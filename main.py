@@ -1,10 +1,10 @@
-import argparse
-from pythonosc import udp_client
 from sklearn.neural_network import MLPClassifier
+from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from pythonosc import udp_client
 import socket
+import argparse
 
 np.set_printoptions(suppress=True)
 
@@ -22,12 +22,12 @@ server_socket.setblocking(1)
 def print_volume_handler(unused_addr, args, volume):
     print((args, volume))
 
-data = pd.read_csv('/Users/thomasmartinez/Desktop/dataset.csv')
+data = pd.read_csv('/path/to/dataset.csv')
 data = np.array(data);
 X = data[:, :-1]
 y = data[:, -1]
 X_train, X_test, y_train, y_test = train_test_split(X, y,random_state=1)
-clf = MLPClassifier(random_state=1, max_iter=3000, solver='', ).fit(X_train, y_train)
+clf = MLPClassifier(random_state=1, max_iter=3000).fit(X_train, y_train)
 
 while True:
     try:
@@ -39,5 +39,3 @@ while True:
         client.send_message("/prediction", str(prediction[0]))
     except Exception as e:
         print(e)
-
-
