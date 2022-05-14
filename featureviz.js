@@ -1,4 +1,4 @@
-//liberated altered with love from MADBUTTER/Emmanuel Jourdan https://cycling74.com/forums/mgraphics-gradients-more-color-stops
+//liberated and altered with love from MADBUTTER/Emmanuel Jourdan https://cycling74.com/forums/mgraphics-gradients-more-color-stops
 
 autowatch = 1;
 

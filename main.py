@@ -22,7 +22,7 @@ server_socket.setblocking(1)
 def print_volume_handler(unused_addr, args, volume):
     print((args, volume))
 
-data = pd.read_csv('/path/to/dataset.csv')
+data = pd.read_csv('/Users/thomasmartinez/Desktop/samples.csv')
 data = np.array(data);
 X = data[:, :-1]
 y = data[:, -1]
