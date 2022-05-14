@@ -22,12 +22,12 @@ server_socket.setblocking(1)
 def print_volume_handler(unused_addr, args, volume):
     print((args, volume))
 
-data = pd.read_csv('/Users/thomasmartinez/Desktop/new3.csv')
+data = pd.read_csv('/Users/thomasmartinez/Desktop/dataset.csv')
 data = np.array(data);
 X = data[:, :-1]
 y = data[:, -1]
 X_train, X_test, y_train, y_test = train_test_split(X, y,random_state=1)
-clf = MLPClassifier(random_state=1, max_iter=3000).fit(X_train, y_train)
+clf = MLPClassifier(random_state=1, max_iter=3000, solver='', ).fit(X_train, y_train)
 
 while True:
     try:
