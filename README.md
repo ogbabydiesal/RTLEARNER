@@ -1,4 +1,4 @@
-!RT_LEARNER_PIC(https://github.com/tmartinez88/RTLEARNER/tree/main/assets/RTLEARNER_PIC.png?raw=true)
+!RT_LEARNER_PIC(https://github.com/tmartinez88/RTLEARNER/blob/main/assets/RTLEARNER_PIC.png)
 
 
 ##abstract
