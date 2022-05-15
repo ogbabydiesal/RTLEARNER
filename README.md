@@ -11,7 +11,7 @@ Though it is intended to be used for audio classification processes, components 
 Machine Learning tools within Max such as FluCoMa, Magenta Studio, and ml.star offer classification, prediction, and even generation processes all within a singular software environment. The trade off for this this elegance is less composability in the underlying model parameters and less exposure to the core systems of  of machine learning. For many  
 
 ## Demonstration
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JwudRbgLTNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e7F6OkrapIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## use cases
