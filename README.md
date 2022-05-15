@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/tmartinez88/RTLEARNER/blob/main/assets/RTLEARNER_PIC.png?raw=true" width="350" title="hover text">
+  <img src="https://github.com/tmartinez88/RTLEARNER/blob/main/assets/RTLEARNER_PIC.png?raw=true" width="300" title="RTLEARNER APP">
 </p>
 
 ## Abstract
