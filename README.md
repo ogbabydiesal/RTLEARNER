@@ -1,4 +1,7 @@
-![RT_LEARNER_PIC](https://github.com/tmartinez88/RTLEARNER/blob/main/assets/RTLEARNER_PIC.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/tmartinez88/RTLEARNER/blob/main/assets/RTLEARNER_PIC.png?raw=true" width="350" title="hover text">
+</p>
 
 ## Abstract
 Developed during an independent study with Professor Johanna Devaney in the Sonic Arts MFA at Brooklyn College, RTLEARNER (or Real-Time Learner) is a set of example applications for fast dataset creation, and real-time communication between MaxMSP and the Python machine learning library Sci-Kit Learn. MaxMSP has long been the programming environment of choice for new music practitioners, containing within it a wide variety of composable audio processing units. Sci-Kit Learn has emerged as the goto framework for machine learning tasks, and provides with it a number of popular ML (machine learning) algorithms for classification and prediction in a highly approachable yet optimized format.
