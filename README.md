@@ -10,7 +10,7 @@ RTLEARNER implements a bi-directional OSC client/server architecture to act as a
 
 Though it is intended to be used for audio classification processes, components of the patch could very well be altered to classify other data native to Max, such as visual or gestural information.
 
-## Other tools
+### Other tools
 Machine Learning tools within Max such as [FluCoMa](https://www.flucoma.org/), [CataRT](https://ismm.ircam.fr/catart/#:~:text=The%20concatenative%20real%2Dtime%20sound,position%20in%20the%20descriptor%20space.), [Magenta Studio](https://magenta.tensorflow.org/studio/Magenta), and [ml.*](http://ben.musicsmiths.us/ml.phtml) offer classification, prediction, and even generation processes in Max, all within a singular software environment. The trade off for this elegance is less composability in the underlying model parameters and less exposure to the lingua franca of machine learning, Python. For most, the aforementioned tools are extremely powerful systems for classification and regression techniques, for the very brave and curious programmer, RTLEARNER provides a methodology for going deeper into the black box.
 
 ## Video Demonstration
