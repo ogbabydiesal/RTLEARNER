@@ -22,7 +22,7 @@ Machine Learning tools within Max such as [FluCoMa](https://www.flucoma.org/), [
 2. Python 3.9 is recommended. This was tested using a virtual environment using anaconda.
 3. Python dependencies can be downloaded using the Python environment's library manager or using the following terminal commands.
 
-        `pip install sklearn, numpy, pandas, python-osc`
+      `pip install sklearn, numpy, pandas, python-osc`
 
 3. Install [MaxMSP](https://cycling74.com/downloads).
 4. The RTLEARNER max patch uses a number of FluCoMa Max objects for feature extraction. The FluCoMa objects can be downloaded [here](https://www.flucoma.org/download/), and will soon be available in the Max package manager. These objects may be swapped out for other analysis objects such as CNMAT's Zsa Descriptors which can be found in the Max package manager (though the patches included here do not depend on them).
