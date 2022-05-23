@@ -11,7 +11,7 @@ RTLEARNER implements a bi-directional OSC client/server architecture to act as a
 Though it is intended to be used for audio classification processes, components of the patch could very well be altered to classify other data native to Max, such as visual or gestural information.
 
 ## Other tools
-Machine Learning tools within Max such as [FluCoMa](https://www.flucoma.org/), [CataRT](https://ismm.ircam.fr/catart/#:~:text=The%20concatenative%20real%2Dtime%20sound,position%20in%20the%20descriptor%20space.), [Magenta Studio](https://magenta.tensorflow.org/studio/Magenta), and [ml.*](http://ben.musicsmiths.us/ml.phtml) offer classification, prediction, and even generation processes in Max, all within a singular software environment. The trade off for this elegance is less composability in the underlying model parameters and less exposure to the lingua franca of machine learning, Python. For most, the aforementioned tools are extremely powerful systems for classification and regression techniques, for the very brave and curious programmer RTLEARNER provides a methodology for going deeper into the black box.
+Machine Learning tools within Max such as [FluCoMa](https://www.flucoma.org/), [CataRT](https://ismm.ircam.fr/catart/#:~:text=The%20concatenative%20real%2Dtime%20sound,position%20in%20the%20descriptor%20space.), [Magenta Studio](https://magenta.tensorflow.org/studio/Magenta), and [ml.*](http://ben.musicsmiths.us/ml.phtml) offer classification, prediction, and even generation processes in Max, all within a singular software environment. The trade off for this elegance is less composability in the underlying model parameters and less exposure to the lingua franca of machine learning, Python. For most, the aforementioned tools are extremely powerful systems for classification and regression techniques, for the very brave and curious programmer, RTLEARNER provides a methodology for going deeper into the black box.
 
 ## Video Demonstration
 [![Video Demo](https://github.com/tmartinez88/RTLEARNER/blob/main/assets/youtubeScreeny.png?raw=true)](https://www.youtube.com/watch?v=e7F6OkrapIU&t=5s)
@@ -21,6 +21,7 @@ Machine Learning tools within Max such as [FluCoMa](https://www.flucoma.org/), [
 1. Both Windows and Mac are supported.
 2. Python 3.9 is recommended. This was tested using a virtual environment using anaconda.
 3. Python dependencies can be downloaded using the Python environment's library manager or using the following terminal commands.
+</br>
 `pip install sklearn, numpy, pandas, python-osc`
 3. Install [MaxMSP](https://cycling74.com/downloads).
 4. The RTLEARNER max patch uses a number of FluCoMa Max objects for feature extraction. The FluCoMa objects can be downloaded [here](https://www.flucoma.org/download/), and will soon be available in the Max package manager. These objects may be swapped out for other analysis objects such as CNMAT's Zsa Descriptors which can be found in the Max package manager (though the patches included here do not depend on them).
