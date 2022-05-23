@@ -18,8 +18,14 @@ https://www.youtube.com/watch?v=e7F6OkrapIU&t=5s
 
 ## use cases
 
-### dependencies
+## Dependencies
+The RTLEARNER max patch uses a number of FluCoMa objects for feature extraction. The FluCoMa objects can be downloaded [here](https://www.flucoma.org/download/), and soon in the Max package manager. These objects may be swapped out for other analysis objects such as Zsa Descriptors which can be found in the Max package manager, though this repository does not depend on them.
 
-## premise
+## Setup
 
-## instructions
+### 1. Installation
+1. Both Windows and Mac are supported.
+2. Python 3.9 is recommended. I used a virtual environment using anaconda. pip install sklearn, numpy, pandas, python-osc to
+3. Install [ffmpeg](https://ffmpeg.org/download.html#get-packages). This is necessary for reading audio files.
+4. Install [PyTorch](https://pytorch.org/get-started/locally/). Pick the latest stable version, your operating system, your package manager (pip by default) and finally pick any of the proposed CUDA versions if you have a GPU, otherwise pick CPU. Run the given command.
+5. Install the remaining requirements with `pip install -r requirements.txt`
