@@ -22,7 +22,8 @@ server_socket.setblocking(1)
 def print_volume_handler(unused_addr, args, volume):
     print((args, volume))
 #replace with path to the dataset created in MaxMSP
-data = pd.read_csv('/path/to/samples.csv')
+#data = pd.read_csv('/Users/thomasmartinez/Desktop/samples.csv')
+data = pd.read_csv('/Path/To/YourDataset.csv')
 data = np.array(data);
 X = data[:, :-1]
 y = data[:, -1]
